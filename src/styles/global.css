@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select {
+  padding: 6px;
+  font-size: 14px;
+}
+
+fieldset {
+  margin-top: 15px;
+  padding: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 8px;
+  cursor: pointer;
+}
