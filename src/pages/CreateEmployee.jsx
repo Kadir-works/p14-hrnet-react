@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useEmployees } from "../store/EmployeeContext"
 import { states } from "../data/states"
-import Modal from "../components/Modal"
+import { Modal } from "react-modal-wealthhealth"
 import { Link } from "react-router-dom"
 
 
